@@ -147,7 +147,7 @@ const CoursesPage = () => {
                         <SelectValue placeholder="All Categories" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="">All Categories</SelectItem>
+                        <SelectItem value="all-categories">All Categories</SelectItem>
                         {categories.map((category) => (
                           <SelectItem key={category} value={category}>
                             {category}
@@ -166,7 +166,7 @@ const CoursesPage = () => {
                         <SelectValue placeholder="All Levels" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="">All Levels</SelectItem>
+                        <SelectItem value="all-levels">All Levels</SelectItem>
                         {levels.map((level) => (
                           <SelectItem key={level} value={level}>
                             {level}
