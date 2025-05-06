@@ -4,22 +4,22 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 export function Testimonials() {
   const testimonials = [
     {
-      name: "Alex Johnson",
-      role: "Computer Science Student",
-      content: "Mora Pinnacles has been a game-changer for my studies. The live sessions and course materials are exceptionally well-structured and engaging.",
-      avatar: "/public/placeholder.svg"
+      name: "Tharindi Nanayakkara",
+      role: "UOM BIT Student",
+      content: "Mora Pinnacles has been a game-changer for my studies. The live sessions and course materials are exceptionally well-structured and engaging. I feel more confident in my subjects now! Proud to be the first baby shark of Mora Pinnacles Family!",
+      avatar: "/public/Images/Tharindi.png"
     },
     {
-      name: "Sophia Chen",
-      role: "Engineering Major",
+      name: "Nethmi Nisansala",
+      role: "UOM BIT Student",
       content: "The interactive learning approach and on-demand access to recordings helped me tremendously with complex subjects. Highly recommend!",
-      avatar: "/public/placeholder.svg"
+      avatar: "/public/Images/Nisansala.png"
     },
     {
-      name: "Marcus Rodriguez",
-      role: "Economics Student",
-      content: "I love how the platform combines live instruction with comprehensive self-study resources. It's made a huge difference in my academic performance.",
-      avatar: "/public/placeholder.svg"
+      name: "Thaveesha Dilhara",
+      role: "UOM BIT & IChem Student",
+      content: "I love how the platform combines live instruction with comprehensive self-study resources. It's made a huge difference in my academic performance. Proud to be a baby shark of Mora Pinnacles Family!",
+      avatar: "/public/Images/Thaveesha.png"
     }
   ];
 

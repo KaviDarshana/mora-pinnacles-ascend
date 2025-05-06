@@ -14,12 +14,12 @@ export function CTASection() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link to="/register">
-              <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-black font-semibold">
+              <Button size="lg" className="bg-secondary hover:bg-green-500 text-black font-semibold">
                 Register Now
               </Button>
             </Link>
             <Link to="/contact">
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+              <Button size="lg" className="bg-green-500 hover:bg-secondary">
                 Contact Us
               </Button>
             </Link>

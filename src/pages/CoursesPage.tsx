@@ -24,33 +24,33 @@ const CoursesPage = () => {
   const courses = [
     {
       id: 1,
-      title: "Introduction to Computer Science",
-      description: "A comprehensive introduction to the fundamentals of computer science and programming.",
-      instructor: "Dr. Jane Smith",
-      price: "$49.99",
+      title: "Communication Skills Development",
+      description: "A comprehensive introduction to the fundamentals of English Language and Communication.",
+      instructor: "Mr. Kavindu Darshana",
+      price: "LKR 1,500",
       level: "Beginner",
-      category: "Computer Science",
-      image: "/public/placeholder.svg"
+      category: "Semester 01",
+      image: "/public/Images/Communication Skills and Development.png"
     },
     {
       id: 2,
-      title: "Advanced Mathematics for Engineers",
-      description: "Mathematical concepts and techniques essential for engineering studies.",
-      instructor: "Prof. Michael Lee",
-      price: "$59.99",
-      level: "Intermediate",
-      category: "Engineering",
-      image: "/public/placeholder.svg"
+      title: "Mathematics and Statistics for IT",
+      description: "Mathematical concepts and techniques essential for IT studies.",
+      instructor: "Mr. Kavindu Darshana",
+      price: "LKR 1,500",
+      level: "Beginner",
+      category: "Semester 01",
+      image: "/public/Images/Mathematics and Statistics for IT.png"
     },
     {
       id: 3,
-      title: "Principles of Economics",
-      description: "Understanding the core principles of micro and macro economics in modern context.",
-      instructor: "Dr. Sarah Johnson",
-      price: "$44.99",
+      title: "Web Design",
+      description: "Understanding the core principles of front-end web development.",
+      instructor: "Mr. Kavindu Darshana",
+      price: "LKR 1,500",
       level: "Beginner",
-      category: "Economics",
-      image: "/public/placeholder.svg"
+      category: "Semester 01",
+      image: "/public/Images/Web Design.avif"
     },
     {
       id: 4,

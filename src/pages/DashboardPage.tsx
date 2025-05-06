@@ -52,7 +52,7 @@ const DashboardPage = () => {
   const courses = [
     {
       id: 1,
-      title: "Introduction to Computer Science",
+      title: "Introduction to Mathematics",
       progress: 75,
       lessons: 12,
       completedLessons: 9,
@@ -62,39 +62,39 @@ const DashboardPage = () => {
     },
     {
       id: 2,
-      title: "Advanced Mathematics for Engineers",
+      title: "Mathematics and Statistics for IT",
       progress: 40,
       lessons: 15,
       completedLessons: 6,
-      nextLesson: "Differential Equations",
-      instructor: "Prof. Michael Lee",
-      nextSession: "Today, 3:00 PM",
+      nextLesson: "Algebra Basics",
+      instructor: "Mr. Kavindu Darshana",
+      nextSession: "Today, 8:00 PM",
     },
     {
       id: 3,
-      title: "Principles of Economics",
+      title: "Web Design",
       progress: 20,
       lessons: 10,
       completedLessons: 2,
-      nextLesson: "Supply and Demand",
-      instructor: "Dr. Sarah Johnson",
-      nextSession: "Thursday, 2:00 PM",
+      nextLesson: "JavaScript Basics",
+      instructor: "Mr. Kavindu Darshana",
+      nextSession: "Saturday, 11:00 AM",
     },
   ];
 
   const upcomingEvents = [
     {
       id: 1,
-      title: "Live Session: Data Structures",
-      course: "Introduction to Computer Science",
-      date: "May 3, 2025",
+      title: "Live Session: Tenses and Grammar",
+      course: "Communication Skills Development",
+      date: "May 10, 2025",
       time: "10:00 AM",
       important: true,
     },
     {
       id: 2,
-      title: "Assignment Due: Economic Models",
-      course: "Principles of Economics",
+      title: "Assignment Due: Web Form Design",
+      course: "Web Design",
       date: "May 5, 2025",
       time: "11:59 PM",
       important: false,
@@ -532,7 +532,7 @@ const DashboardPage = () => {
                             <AvatarImage src="/public/placeholder.svg" alt="User" />
                             <AvatarFallback>AP</AvatarFallback>
                           </Avatar>
-                          <div>Alex Patel</div>
+                          <div>Tharindi Nanayakkara</div>
                         </div>
                         <div className="font-semibold">92%</div>
                       </div>
